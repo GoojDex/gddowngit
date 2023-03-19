@@ -6,7 +6,7 @@
 
 var homeModule = angular.module('homeModule', [
     'ngRoute',
-    'GDdownGitModule',
+    'gddownGitModule',
 ]);
 
 homeModule.config([
@@ -21,9 +21,9 @@ homeModule.config([
                 '$routeParams',
                 '$location',
                 'toastr',
-                'GDdownGitService',
+                'gddownGitService',
 
-                function($scope, $routeParams, $location, toastr, GDdownGitService) {
+                function($scope, $routeParams, $location, toastr, gddownGitService) {
                     $scope.downUrl = "";
                     $scope.url = "";
                     $scope.isProcessing = {val: false};
