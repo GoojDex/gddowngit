@@ -6,13 +6,13 @@
 
 var siteHeaderText = {};
 
-var GDdownGit = angular.module('GDdownGit', [
+var gddownGit = angular.module('gddownGit', [
     'ngRoute',
     'homeModule',
     'toastr',
 ]);
 
-GDdownGit.config([
+gddownGit.config([
     '$routeProvider',
     
     function($routeProvider) {
@@ -26,7 +26,7 @@ GDdownGit.config([
     }
 ]);
 
-GDdownGit.config([
+gddownGit.config([
     'toastrConfig',
     
     function(toastrConfig) {
