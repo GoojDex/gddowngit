@@ -4,10 +4,10 @@
 * License: MIT License                                     *
 ***********************************************************/
 
-var GDdownGitModule = angular.module('GDdownGitModule', [
+var gddownGitModule = angular.module('gddownGitModule', [
 ]);
 
-GDdownGitModule.factory('GDdownGitService', [
+gddownGitModule.factory('gddownGitService', [
     '$http',
     '$q',
 
