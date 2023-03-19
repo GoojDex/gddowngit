@@ -21,9 +21,9 @@ homeModule.config([
                 '$routeParams',
                 '$location',
                 'toastr',
-                'downGitService',
+                'GDdownGitService',
 
-                function($scope, $routeParams, $location, toastr, downGitService) {
+                function($scope, $routeParams, $location, toastr, GDdownGitService) {
                     $scope.downUrl = "";
                     $scope.url = "";
                     $scope.isProcessing = {val: false};
